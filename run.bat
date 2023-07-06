@@ -16,4 +16,6 @@ echo pip search package --extra-index-url http://localhost:8080
 echo.
 echo pip install sqlman==1.0.0 --extra-index-url http://localhost:8080
 echo.
-call pypi-server --overwrite -p 8080 ./packages -P . -a .
+call pypi-server --overwrite -p 1972 ./packages -P . -a .
+
+pause
