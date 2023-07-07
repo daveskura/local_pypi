@@ -14,8 +14,8 @@ echo py -m twine upload --repository-url http://localhost:8080 dist/*
 echo.
 echo pip search package --extra-index-url http://localhost:8080
 echo.
-echo pip install bigquerydave_package==1.0.3 --extra-index-url http://localhost:8080
+echo pip install dbx==2.0.1 --extra-index-url http://localhost:8080
 echo.
-call pypi-server --overwrite -p 1972 ./packages -P . -a .
+call pypi-server --overwrite -p 8080 ./packages -P . -a .
 
 pause
