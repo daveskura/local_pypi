@@ -14,7 +14,7 @@ echo py -m twine upload --repository-url http://localhost:8080 dist/*
 echo.
 echo pip search package --extra-index-url http://localhost:8080
 echo.
-echo pip install dbx==2.0.1 --extra-index-url http://localhost:8080
+echo pip install dbx==2.1.2 --extra-index-url http://localhost:8080
 echo.
 call pypi-server --overwrite -p 8080 ./packages -P . -a .
 
